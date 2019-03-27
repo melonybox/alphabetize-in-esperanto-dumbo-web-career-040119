@@ -9,6 +9,14 @@ def alphabetize(arr)
   
   newListA.sort!
   
-  binding.pry
+  newList.each do |x|
+    newListA.each do |y|
+      if x == y[0]
+        newListB << y
+      end
+    end
+  end
+  
+  return newListB
   
 end
