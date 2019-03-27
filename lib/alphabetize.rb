@@ -9,24 +9,6 @@ def alphabetize(arr)
   
   newListA.sort
   
-  newList.each do |x|
-    counter = 0
-    counterDeux = 0
-    
-    newListA.each do |y|
-      if y[counter] == x
-        newListB << y
-      end
-    end
-    counter += 1
-  end
   
-  binding.pry
-end
-
-if y[i] == x
-  i += 1
-end
-if i == list.size
   
 end
