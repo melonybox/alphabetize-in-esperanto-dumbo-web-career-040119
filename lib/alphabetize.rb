@@ -16,9 +16,5 @@ def alphabetize(arr)
       end
     end
   end
+  return newListB
 end
-
-newListA.each do |y|
-  if y[counterDeux] == newListB.size
-    
-  end
