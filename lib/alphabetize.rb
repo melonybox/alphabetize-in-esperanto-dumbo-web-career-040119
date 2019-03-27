@@ -24,3 +24,9 @@ def alphabetize(arr)
   binding.pry
 end
 
+if y[i] == x
+  i += 1
+end
+if i == list.size
+  
+end
