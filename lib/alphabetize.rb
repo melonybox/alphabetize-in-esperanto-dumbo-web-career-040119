@@ -11,8 +11,9 @@ def alphabetize(arr)
   
   counter = 0
   newList.each do |x|
-    counter = 0
-    binding.pry
+    newListA.each do |y|
+      binding.pry
+    end
   end
   
   binding.pry
