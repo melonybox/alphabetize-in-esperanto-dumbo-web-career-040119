@@ -26,3 +26,7 @@ newListA.each do |y|
   if y[counterDeux] == newListB.size
     
   end
+  
+  auto sort
+  sort by letter
+  
