@@ -9,8 +9,8 @@ def alphabetize(arr)
   
   newListA.sort
   
-  counter = 0
   newList.each do |x|
+    counter = 0
     if newListA.size == 0
       return newListB
     end
