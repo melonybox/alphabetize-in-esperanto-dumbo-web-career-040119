@@ -7,7 +7,7 @@ def alphabetize(arr)
   newListA = arr
   newListB = []
   
-  newListA.sort
+  newListA.sort!
   
   binding.pry
   
