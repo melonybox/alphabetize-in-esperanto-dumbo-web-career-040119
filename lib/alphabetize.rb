@@ -9,6 +9,6 @@ def alphabetize(arr)
   
   newListA.sort
   
-  
+  binding.pry
   
 end
