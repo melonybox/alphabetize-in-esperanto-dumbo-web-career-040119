@@ -8,7 +8,7 @@ def alphabetize(arr)
   newListB = []
   
   newListA.sort_by do x
-    
+    binding.pry
   end
   
 end
