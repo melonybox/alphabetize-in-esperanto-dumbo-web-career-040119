@@ -11,7 +11,8 @@ def alphabetize(arr)
   
   newList.each do |x|
     newListA.each do |y|
-      if y[counter] == x
+      if y[0] == x
+        newListB << y
       end
     end
   end
