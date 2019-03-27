@@ -7,14 +7,8 @@ def alphabetize(arr)
   newListA = arr
   newListB = []
   
-  
-end
-
-newListA.each do |y|
-  if y[counterDeux] == newListB.size
+  newListA.sort_by do x
     
   end
   
-  auto sort
-  sort by letter
-  
+end
