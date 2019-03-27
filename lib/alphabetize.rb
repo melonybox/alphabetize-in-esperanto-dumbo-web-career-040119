@@ -4,7 +4,10 @@ def alphabetize(arr)
   # code here
   newList = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split('')
   
-  newList.sort
+  newListA = arr
+  newListB = []
+  
+  arr.sort
   
   binding.pry
   
