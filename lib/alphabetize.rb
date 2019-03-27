@@ -20,13 +20,11 @@ def alphabetize(arr)
     end
     counter += 1
   end
+  
+  binding.pry
 end
 
 newListA.each do |y|
   if y[counterDeux] == newListB.size
     
   end
-  
-  auto sort
-  sort by letter
-  
