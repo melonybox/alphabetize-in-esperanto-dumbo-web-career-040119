@@ -24,7 +24,3 @@ def alphabetize(arr)
   binding.pry
 end
 
-newListA.each do |y|
-  if y[counterDeux] == newListB.size
-    
-  end
