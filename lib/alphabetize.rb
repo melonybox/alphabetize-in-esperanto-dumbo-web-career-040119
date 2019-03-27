@@ -15,6 +15,7 @@ def alphabetize(arr)
       return newListB
     end
     newListA.each do |y|
+      binding.pry
       if y[counter] == x
         newListB << y
       end
