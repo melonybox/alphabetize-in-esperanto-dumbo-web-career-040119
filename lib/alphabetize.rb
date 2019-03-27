@@ -10,7 +10,7 @@ def alphabetize(arr)
   newListA.sort
   
   newList.each do |x|
-    
+    binding.pry
   end
   
   binding.pry
