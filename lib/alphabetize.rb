@@ -9,6 +9,10 @@ def alphabetize(arr)
   
   newListA.sort
   
+  newList.each do |x|
+    
+  end
+  
   binding.pry
   
 end
