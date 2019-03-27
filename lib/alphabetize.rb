@@ -10,15 +10,11 @@ def alphabetize(arr)
   newListA.sort
   
   newList.each do |x|
-    counter = 0
-    counterDeux = 0
-    if newListA.size == newListB.size
     newListA.each do |y|
       if y[counter] == x
         newListB << y
       end
     end
-    counter += 1
   end
 end
 
