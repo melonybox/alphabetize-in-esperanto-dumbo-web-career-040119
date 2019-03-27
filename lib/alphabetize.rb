@@ -12,8 +12,11 @@ def alphabetize(arr)
   counter = 0
   newList.each do |x|
     newListA.each do |y|
-      binding.pry
+      if y[i] == x
+        newListB << y
+      end
     end
+    counter += 1
   end
   
   binding.pry
