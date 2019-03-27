@@ -23,3 +23,8 @@ def alphabetize(arr)
     counter += 1
   end
 end
+
+newListA.each do |y|
+  if y[counterDeux] == newListB.size
+    
+  end
