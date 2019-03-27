@@ -11,6 +11,9 @@ def alphabetize(arr)
   
   counter = 0
   newList.each do |x|
+    if newListA.size == 0
+      return newListB
+    end
     newListA.each do |y|
       if y[counter] == x
         newListB << y
